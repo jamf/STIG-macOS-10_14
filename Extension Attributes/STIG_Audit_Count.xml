@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><extensionAttribute>
+<displayName>STIG_Audit_Count</displayName>
+<description>STIG Security Reporting - Count Risks</description>
+<dataType>number</dataType>
+<scriptContentsMac>#!/bin/bash&#13;
+&#13;
+# STIG Security Reporting - Count Risks&#13;
+&#13;
+auditfile=/Library/Application\ Support/SecurityScoring/STIG_audit&#13;
+echo "&lt;result&gt;$(cat "$auditfile" | grep "*" | wc -l | tr -d '[:space:]')&lt;/result&gt;"</scriptContentsMac>
+<scriptContentsWindows/>
+</extensionAttribute>
