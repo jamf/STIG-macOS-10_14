@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>SmartCard</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>4CDF5FE9-52EC-437B-BEA8-CD2B6E42B7B9</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.smartcard</string>
+			<key>PayloadUUID</key>
+			<string>4CDF5FE9-52EC-437B-BEA8-CD2B6E42B7B9</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>UserPairing</key>
+			<true/>
+			<key>allowSmartCard</key>
+			<true/>
+			<key>checkCertificateTrust</key>
+			<integer>1</integer>
+			<key>enforceSmartCard</key>
+			<true/>
+			<key>oneCardPerUser</key>
+			<false/>
+			<key>tokenRemovalAction</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>AOSX_14_000005 - Smart Card payload &gt; Enable Screen Saver on Smart Card removal (checked)
+AOSX_14_001060 - Smart Card Payload &gt; VERIFY CERTIFICATE TRUST = Check Certificate
+AOSX_14_003002 - Smart Card Payload &gt; VERIFY CERTIFICATE TRUST = Check Certificate
+AOSX_14_003005 - Smart Card payload &gt; Enforce Smart Card use (checked)
+AOSX_14_003025 - Smart Card payload &gt; Enforce Smart Card use (checked)</string>
+	<key>PayloadDisplayName</key>
+	<string>10.14_STIG-Smart Card Enforced</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>5714BCF8-CFCC-4262-A3E1-2BBC7FB3EF25</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>5714BCF8-CFCC-4262-A3E1-2BBC7FB3EF25</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

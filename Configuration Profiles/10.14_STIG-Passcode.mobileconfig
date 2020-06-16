@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Passcode</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>C06BF6CC-D596-4C38-A545-FEAB9BB6E6BF</string>
+			<key>PayloadType</key>
+			<string>com.apple.mobiledevice.passwordpolicy</string>
+			<key>PayloadUUID</key>
+			<string>C06BF6CC-D596-4C38-A545-FEAB9BB6E6BF</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowSimple</key>
+			<false/>
+			<key>changeAtNextAuth</key>
+			<false/>
+			<key>forcePIN</key>
+			<true/>
+			<key>maxFailedAttempts</key>
+			<integer>0</integer>
+			<key>maxPINAgeInDays</key>
+			<integer>60</integer>
+			<key>minComplexChars</key>
+			<integer>1</integer>
+			<key>minLength</key>
+			<integer>15</integer>
+			<key>minutesUntilFailedLoginReset</key>
+			<integer>0</integer>
+			<key>pinHistory</key>
+			<integer>5</integer>
+			<key>requireAlphanumeric</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>AOSX_14_000020 - Passcode payload &gt; MAXIMUM NUMBER OF FAILED ATTEMPTS 3
+AOSX_14_000021 - Passcode payload &gt; DELAY AFTER FAILED LOGIN ATTEMPTS 15 (NOT COMPATIBLE WITH MACOS V10.11 OR LATER)
+AOSX_14_000022 - Passcode payload &gt; MAXIMUM NUMBER OF FAILED ATTEMPTS 3
+AOSX_14_000022 - Passcode payload &gt; DELAY AFTER FAILED LOGIN ATTEMPTS 15 (NOT COMPATIBLE WITH MACOS V10.11 OR LATER)
+AOSX_14_003007 - Passcode payload &gt; Require alphanumeric value (checked)
+AOSX_14_003008 - Passcode payload &gt; MAXIMUM PASSCODE AGE 60
+AOSX_14_003009 - Passcode payload &gt; PASSCODE HISTORY 5
+AOSX_14_003010 - Passcode payload &gt; MINIMUM PASSCODE LENGTH 15
+AOSX_14_003011 - Passcode payload &gt; MINIMUM NUMBER OF COMPLEX CHARACTERS 1
+AOSX_14_003011 - Passcode payload &gt; Allow simple value (unchecked)
+</string>
+	<key>PayloadDisplayName</key>
+	<string>10.14_STIG-Passcode</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>66EC8DBC-2D0F-4192-B750-26C5BCE9800F</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>66EC8DBC-2D0F-4192-B750-26C5BCE9800F</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

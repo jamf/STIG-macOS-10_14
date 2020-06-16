@@ -1,0 +1,84 @@
+10.14_STIG-allowCloudPhotoLibrary
+AOSX_14_002043 - Custom payload > com.apple.applicationaccess > allowCloudPhotoLibrary=false
+
+10.14_STIG-Certificates
+AOSX_14_003001 - Certificate payload
+
+10.14_STIG-Disable Hot Corners
+AOSX_14_000007 - Custom payload > com.apple.dock > wvous-tl-corner=0, wvous-br-corner=0, wvous-bl-corner=0, wvous-tr-corner=0
+
+10.14_STIG-Disable Siri and dictation
+AOSX_14_002020 - Custom payload > com.apple.ironwood.support > Ironwood Allowed=false
+AOSX_14_002020 - Custom payload > com.apple.ironwood.support > Assistant Allowed=false
+
+10.14_STIG-DisableBluetooth
+AOSX_14_002062 - Custom payload > com.apple.MCXBluetooth > DisableBluetooth=true
+
+10.14_STIG-DisableFDEAutologin
+AOSX_14_000032 - Custom payload > com.apple.loginwindow > DisableFDEAutoLogin=true
+
+10.14_STIG-forceInternetSharingOff
+AOSX_14_002007 - Custom payload > com.apple.MCX > forceInternetSharingOff=true
+
+10.14_STIG-NoMulticastAdvertisements
+AOSX_14_002005 - Custom payload > com.apple.mDNSResponder > NoMulticastAdvertisements=true
+
+10.14_STIG-Passcode
+AOSX_14_000020 - Passcode payload > MAXIMUM NUMBER OF FAILED ATTEMPTS 3
+AOSX_14_000021 - Passcode payload > DELAY AFTER FAILED LOGIN ATTEMPTS 15 (NOT COMPATIBLE WITH MACOS V10.11 OR LATER)
+AOSX_14_000022 - Passcode payload > MAXIMUM NUMBER OF FAILED ATTEMPTS 3
+AOSX_14_000022 - Passcode payload > DELAY AFTER FAILED LOGIN ATTEMPTS 15 (NOT COMPATIBLE WITH MACOS V10.11 OR LATER)
+AOSX_14_003007 - Passcode payload > Require alphanumeric value (checked)
+AOSX_14_003008 - Passcode payload > MAXIMUM PASSCODE AGE 60
+AOSX_14_003009 - Passcode payload > PASSCODE HISTORY 5
+AOSX_14_003010 - Passcode payload > MINIMUM PASSCODE LENGTH 15
+AOSX_14_003011 - Passcode payload > MINIMUM NUMBER OF COMPLEX CHARACTERS 1
+AOSX_14_003011 - Passcode payload > Allow simple value (unchecked)
+
+10.14_STIG-Restrictions
+AOSX_14_002009 - Restrictions payload > Media > Allow AirDrop (unchecked)
+AOSX_14_002010 - Restrictions payload > Applications > Disallow "/Applications/FaceTime.app"
+AOSX_14_002011 - Restrictions payload > Applications > Disallow "/Applications/Messages.app"
+AOSX_14_002012 - Restrictions payload > Functionality > Allow iCloud Calendar (unchecked)
+AOSX_14_002013 - Restrictions payload > Functionality > Allow iCloud Reminders (unchecked)
+AOSX_14_002014 - Restrictions payload > Functionality > Allow iCloud Contacts (unchecked)
+AOSX_14_002015 - Restrictions payload > Functionality > Allow iCloud Mail (unchecked)
+AOSX_14_002016 - Restrictions payload > Functionality > Allow iCloud Notes (unchecked)
+AOSX_14_002017 - Restrictions payload > Functionality > Allow use of Camera (unchecked)
+AOSX_14_002019 - Restrictions payload > Applications > Disallow "/Applications/Mail.app"
+AOSX_14_002023 - Restrictions payload > Applications > Disallow "/Applications/Calendar.app"
+AOSX_14_002031 - Restrictions payload > Preferences > disable selected items "iCloud"
+AOSX_14_002023 - Restrictions payload > Preferences > disable selected items "Internet Accounts"
+AOSX_14_002040 - Restrictions payload > Functionality > Allow iCloud Keychain (unchecked)
+AOSX_14_002041 - Restrictions payload > Functionality > Allow iCloud Drive (unchecked)
+AOSX_14_002042 - Restrictions payload > Functionality > Allow iCloud Bookmarks (unchecked)
+AOSX_14_002049 - Restrictions payload > Functionality > Allow iCloud Drive (unchecked)
+AOSX_14_002067 - Restrictions payload > Applications > Disallow "/Users"
+
+10.14_STIG-Security and Privacy-LoginWindow
+AOSX_14_000001 - Security & Privacy Payload > General > Allow user to unlock the Mac using an Apple Watch (un-checked)
+AOSX_14_000002 - Security & Privacy Payload > General > Require password * after sleep or screen saver begins (checked)
+AOSX_14_000003 - Security & Privacy Payload > General > Require password * after sleep or screen saver begins (select * time no more than five seconds)
+AOSX_14_000004 - Login Window payload > Options > Start screen saver after: (checked) > 15 Minutes of Inactivity (or less) 
+AOSX_14_000006 - Login Window payload > Options > Start screen saver after: (checked) > USE SCREEN SAVER MODULE AT PATH: (path to screensaver)
+AOSX_14_002021 - Security & Privacy payload > Privacy > Allow sending diagnostic and usage data to Apple... (unchecked)
+AOSX_14_002034 - Login Window payload > Options > Disable Siri setup during login (checked)
+AOSX_14_002035 - Login Window payload > Options > Disable Apple ID setup during login (checked)
+AOSX_14_002060 - Security & Privacy payload > General > Mac App Store and identified developers (selected)
+AOSX_14_002061 - Security & Privacy payload > General > Do not allow user to override Gatekeeper setting (checked)
+AOSX_14_002063 - Login Window payload > Options > Allow Guest User (unchecked)
+AOSX_14_002066 - Login Window payload > Options > Disable automatic login (checked)
+AOSX_14_003012 - Login Window payload > Options > Show password hint when needed and available (checked)
+
+10.14_STIG-SkipiCloudStorageSetup
+AOSX_14_002037 - Custom payload > com.apple.SetupAssistant.managed > SkipiCloudStorageSetup=true
+
+10.14_STIG-SkipPrivacySetup
+AOSX_14_002036 - Custom payload > com.apple.SetupAssistant.managed > SkipPrivacySetup=true
+
+10.14_STIG-Smart Card
+AOSX_14_000005 - Smart Card payload > Enable Screen Saver on Smart Card removal (checked)
+AOSX_14_001060 - Smart Card Payload > VERIFY CERTIFICATE TRUST = Check Certificate
+AOSX_14_003002 - Smart Card Payload > VERIFY CERTIFICATE TRUST = Check Certificate
+AOSX_14_003005 - Smart Card payload > Enforce Smart Card use (checked)
+AOSX_14_003025 - Smart Card payload > Enforce Smart Card use (checked)

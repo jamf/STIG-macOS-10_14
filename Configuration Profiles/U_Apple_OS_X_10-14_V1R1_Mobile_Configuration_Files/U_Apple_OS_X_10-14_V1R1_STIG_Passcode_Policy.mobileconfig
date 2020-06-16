@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Passcode</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.mobiledevice.passcodepolicy</string>
+			<key>PayloadUUID</key>
+			<string>E3FD5463-7EA8-4D4B-A847-D2B437AEBFAC</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowSimple</key>
+			<false/>
+			<key>maxFailedAttempts</key>
+			<integer>3</integer>
+			<key>maxPINAgeInDays</key>
+			<integer>60</integer>
+			<key>minComplexChars</key>
+			<integer>1</integer>
+			<key>minLength</key>
+			<integer>15</integer>
+			<key>minutesUntilFailedLoginReset</key>
+			<integer>15</integer>
+			<key>pinHistory</key>
+			<integer>5</integer>
+			<key>requireAlphanumeric</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string></string>
+	<key>PayloadDisplayName</key>
+	<string>Passcode Policy</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>A225CB47-30DF-4972-B8E3-51AE69FCA85E</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
